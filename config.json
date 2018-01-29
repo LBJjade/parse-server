@@ -1,0 +1,20 @@
+{
+  "apps":[
+    {
+      "serverURL":"http://localhost:1337/parse",
+      "appId":"bec",
+      "masterKey":"bec",
+      "appName":"Becheer",
+      "verifyUserEmails": true,
+      "publicServerURL": "http://localhost:1337/parse",
+      "emailAdapter": {
+        "module": "@parse/simple-mailgun-adapter",
+        "options": {
+          "fromAddress": "no-reply@becheer.com",
+          "domain": "sandbox2f47f9fb0c1b4832a27f7a7e069ff5fb.mailgun.org",
+          "apiKey": "key-235b37dd69d4eac162215380aac51a22"
+        }
+      }
+    }
+  ]
+}
